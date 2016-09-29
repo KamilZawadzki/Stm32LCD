@@ -86,13 +86,12 @@ int main(void)
 
   /* USER CODE BEGIN 2 */
   initLCD(&scr);
-  writeStringLCD(&scr,"It very well");
-  //initLCD(&hi2c1,(0x27<<1));
-  //writeLCD('b',&hi2c1,(0x27<<1));
-  //temp();
-  //writeStringLCD(str,&hi2c1,(0x27<<1));
+  moveXY(&scr,4,0);
+  writeStringLCD(&scr,"Hello");
 
-  
+  moveXY(&scr,3,1);
+  writeStringLCD(&scr,"LCD USER");
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
