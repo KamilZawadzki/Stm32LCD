@@ -90,7 +90,7 @@ int main(void)
   writeStringLCD(&scr,"Hello");
 
   moveXY(&scr,3,1);
-  writeStringLCD(&scr,"LCD USER");
+  writeStringLCD(&scr,"LCD User");
 
   /* USER CODE END 2 */
 
@@ -101,7 +101,8 @@ int main(void)
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-    
+  HAL_Delay(300);
+  moveDisplayLeft(&scr);
     
    
 

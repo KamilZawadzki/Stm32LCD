@@ -52,11 +52,11 @@
       <target file="stm32f1xx_hal_gpio.o" lastModified="157713b6800">
          <source file="..\..\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c" lastModified="156f65a736f"/>
       </target>
-      <target file="main.o" lastModified="1577717833d">
-         <source file="..\..\..\Src\main.c" lastModified="157771780d2"/>
+      <target file="main.o" lastModified="157801427ad">
+         <source file="..\..\..\Src\main.c" lastModified="1578013ed71"/>
       </target>
-      <target file="lcd.o" lastModified="15777155014">
-         <source file="..\..\..\Src\lcd.c" lastModified="157771548c5"/>
+      <target file="lcd.o" lastModified="15780135bf7">
+         <source file="..\..\..\Src\lcd.c" lastModified="157801332a0"/>
       </target>
    </processor>
 </history>

@@ -104,3 +104,23 @@ void moveXY(LCD1602 *scr,uint8_t x, uint8_t y)
 	sendData(scr,&command);
 
 }
+//moveDisplayRigth перемещает дисплей на одну позицию враво
+void moveDisplayRight(LCD1602 *scr)
+{
+	uint8_t command;
+	command = 0x18;
+	sendData(scr,&command);
+
+	command = 0xC8;
+	sendData(scr,&command);
+}
+// moveDispayLeft перемещает дисплей на одну позицию влево
+void moveDisplayLeft(LCD1602 *scr)
+{
+	uint8_t command;
+		command = 0x18;
+		sendData(scr,&command);
+
+		command = 0x88;
+		sendData(scr,&command);
+}
