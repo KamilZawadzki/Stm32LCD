@@ -10,11 +10,11 @@
   }LCD1602;
 
 
-  void sendData(LCD1602 *scr , uint8_t *pData); //отправка команды по четырехбитному интерфейсу
-  void initLCD(LCD1602 *scr); //инициализация дисплея
-  void writeLCD(LCD1602 *scr, uint8_t s);// вывод символа s на дисплей
-  void writeStringLCD(LCD1602 *scr,char *str);// вывод строки str на дисплей
-  void moveXY(LCD1602 *scr,uint8_t x, uint8_t y); // переместить курсор в позицию X, Y
-  void moveDisplayRight(LCD1602 *scr); //сдвинуть экран вправо на одну позицию
-  void moveDisplayLeft(LCD1602 *scr); //сдвинуть экран влево на одну позицию
+  void sendData(LCD1602 *scr , uint8_t *pData); //РѕС‚РїСЂР°РІРєР° РєРѕРјР°РЅРґС‹ РїРѕ С‡РµС‚С‹СЂРµС…Р±РёС‚РЅРѕРјСѓ РёРЅС‚РµСЂС„РµР№СЃСѓ
+  void initLCD(LCD1602 *scr); //РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґРёСЃРїР»РµСЏ
+  void writeLCD(LCD1602 *scr, uint8_t s);// РІС‹РІРѕРґ СЃРёРјРІРѕР»Р° s РЅР° РґРёСЃРїР»РµР№
+  void writeStringLCD(LCD1602 *scr,char *str);// РІС‹РІРѕРґ СЃС‚СЂРѕРєРё str РЅР° РґРёСЃРїР»РµР№
+  void moveXY(LCD1602 *scr,uint8_t x, uint8_t y); // РїРµСЂРµРјРµСЃС‚РёС‚СЊ РєСѓСЂСЃРѕСЂ РІ РїРѕР·РёС†РёСЋ X, Y
+  void moveDisplayRight(LCD1602 *scr); //СЃРґРІРёРЅСѓС‚СЊ СЌРєСЂР°РЅ РІРїСЂР°РІРѕ РЅР° РѕРґРЅСѓ РїРѕР·РёС†РёСЋ
+  void moveDisplayLeft(LCD1602 *scr); //СЃРґРІРёРЅСѓС‚СЊ СЌРєСЂР°РЅ РІР»РµРІРѕ РЅР° РѕРґРЅСѓ РїРѕР·РёС†РёСЋ
  #endif /* LED_H */
