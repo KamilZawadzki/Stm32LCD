@@ -90,7 +90,7 @@ int main(void)
   writeStringLCD(&scr,"Hello");
 
   moveXY(&scr,3,1);
-  writeStringLCD(&scr,"LCD User");
+  writeStringLCD(&scr,"LCD User!!! I`m working now :)");
 
   /* USER CODE END 2 */
 
